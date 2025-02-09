@@ -73,4 +73,4 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 MIT License - Free to use and modify.
 
-## 💡 Built by OldAlexHub | AI-Powered Solutions for Job Seekers 🚀
+## 💡 Built by Mohamed Gad | AI-Powered Solutions for Job Seekers 🚀
