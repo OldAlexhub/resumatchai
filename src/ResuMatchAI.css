@@ -1,0 +1,110 @@
+/* Chatbox Container */
+.chatbox {
+  position: fixed;
+  bottom: 80px; /* Positioned above the toggle button */
+  right: 20px;
+  width: 350px;
+  max-height: 450px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.chatbox.active {
+  display: flex;
+}
+
+/* Chatbox Header */
+.chatbox-header {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Chatbox Body */
+.chatbox-body {
+  padding: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat Message Styles */
+.chat-message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 80%;
+}
+
+/* User messages (right-aligned, light green) */
+.user-message {
+  background-color: #d4edda;
+  align-self: flex-end;
+  text-align: right;
+}
+
+/* Bot messages (left-aligned, light blue) */
+.bot-message {
+  background-color: #d1ecf1;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Chatbox Footer */
+.chatbox-footer {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chatbox-footer input {
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.chatbox-footer button {
+  min-width: 70px;
+}
+
+/* Floating Chat Toggle Button */
+.chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1100;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}
+.image-placeholder img {
+  width: 100%; /* Ensures responsiveness */
+  max-width: 700px; /* Prevents oversized images */
+  height: auto;
+  border-radius: 12px; /* Rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  display: block;
+  margin: 0 auto;
+}
