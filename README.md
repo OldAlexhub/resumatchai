@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# ResuMatch AI 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### AI-powered Resume Analyzer for Job Seekers & Recruiters
 
-## Available Scripts
+![ResuMatch AI](https://via.placeholder.com/1200x600)
 
-In the project directory, you can run:
+## 🔥 Overview
 
-### `npm start`
+ResuMatch AI helps **job seekers and recruiters** by analyzing resumes against job descriptions. The AI-driven insights provide a **Job Fit Score**, identify **matching skills**, highlight **missing qualifications**, and allow users to **chat with an AI recruiter** for career guidance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ **Resume & Job Description Analysis** – AI compares resumes to job descriptions.  
+✅ **Job Fit Score** – Calculates how well your resume matches the job.  
+✅ **Matching & Missing Skills** – Highlights relevant and missing skills.  
+✅ **AI Chatbot** – Get real-time career advice from an AI-powered recruiter.  
+✅ **User-Friendly UI** – Built with **React.js & Bootstrap** for a smooth experience.
 
-### `npm test`
+## 🎯 How It Works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 📂 **Upload Your Resume** – Select a **PDF or DOCX** file.
+2. 📄 **Paste the Job Description** – Copy and paste job requirements.
+3. 🔍 **Analyze Resume** – AI processes your resume and provides insights.
+4. 📊 **Get Your Job Fit Score** – View **matching & missing skills**.
+5. 💬 **Chat with AI Recruiter** – Ask career-related questions.
 
-### `npm run build`
+## 🖥️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React.js, Bootstrap, Axios
+- **Backend:** Flask (Python)
+- **AI Models:** NLP, Transformers, FAISS Vector Search
+- **Deployment:** GitHub, Vercel (or your hosting choice)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Installation & Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Clone the Repository
 
-### `npm run eject`
+```sh
+git clone https://github.com/OldAlexhub/resumatchai.git
+cd resumatchai
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2️⃣ Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3️⃣ Run the App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will start the development server at http://localhost:3000/.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌟 Environment Variables
 
-### Code Splitting
+Create a .env file in the root directory and add:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+REACT_APP_API_BASE_URL=http://localhost:5000
+```
 
-### Analyzing the Bundle Size
+Modify the URL if using a deployed backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📜 License
 
-### Advanced Configuration
+MIT License - Free to use and modify.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💡 Built by OldAlexHub | AI-Powered Solutions for Job Seekers 🚀
